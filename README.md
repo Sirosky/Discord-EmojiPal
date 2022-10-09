@@ -70,3 +70,11 @@ While we're at it, here are a few websites I pulled emojis from.
 ## Under the hood
 
 EmojiPal sends emojis by taking advantage of Discord embeds-- when you enter an emoji prompt, it'll send a direct link to the emoji image. This is essentially how all of the "free Nitro" emoji-sending scripts work. A limitation is that you cannot have text and a picture emoji on the same line, unlike normal Discord emojis. Some channels may also block linking, which prevents EmojiPal and other "free Nitro"-style scripts from sending Emojis. But generally, this isn't too common.
+
+The upside is that changes to the Discord API or to the client won't break EmojiPal-- an issue with scripts replying on injection.
+
+## Credits
+
+- nbirnel, who did [the grunt work of typing out all the letters of the alphabet and then some](https://github.com/nbirnel/keylogger/blob/master/keylogger.ahk) to track keyboard input.
+- Chunjee, who saved me a lot of trouble with his [fork of the JSON.AHK script](https://github.com/Chunjee/json.ahk/blob/master/export.ahk).
+- The developers of AHK, without which this script would not exist.
